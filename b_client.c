@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <sys/types.h>
-#include <linux/in.h>
 #include <sys/socket.h>
 #include <sys/select.h>
+#include <arpa/inet.h>
 
 #define IP_FOUND "IP_FOUND"
 #define IP_FOUND_ACK "IP_FOUND_ACK"
